@@ -23874,13 +23874,13 @@
 											"containerChangeable": false,
 											"containerExtending": true,
 											"left": 415,
-											"top": 211.5,
-											"width": 116,
+											"top": 207.5,
+											"width": 198,
 											"height": 13,
 											"autoResize": false,
-											"alpha": 0.15808994858993963,
-											"distance": 69.87131027825369,
-											"text": "1 : return_discount()",
+											"alpha": 0.009174053703500917,
+											"distance": 109.00458705944443,
+											"text": "1 : discount_id = return_discount()",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5
 										},
@@ -23902,8 +23902,8 @@
 											"parentStyle": false,
 											"containerChangeable": false,
 											"containerExtending": true,
-											"left": 404,
-											"top": 197.5,
+											"left": 405,
+											"top": 183.5,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -23930,8 +23930,8 @@
 											"parentStyle": false,
 											"containerChangeable": false,
 											"containerExtending": true,
-											"left": 404,
-											"top": 212.5,
+											"left": 405,
+											"top": 198.5,
 											"width": 0,
 											"height": 13,
 											"autoResize": false,
@@ -23950,13 +23950,13 @@
 									"parentStyle": false,
 									"containerChangeable": false,
 									"containerExtending": true,
-									"left": 403,
-									"top": 210,
+									"left": 404,
+									"top": 196,
 									"width": 3,
 									"height": 39,
 									"autoResize": false,
-									"alpha": 1.5707963267948966,
-									"distance": 10,
+									"alpha": 2.456336246691241,
+									"distance": 18.027756377319946,
 									"hostEdge": {
 										"$ref": "AAAAAAFJkEnKAlFKZS0="
 									},
@@ -24001,14 +24001,14 @@
 											"parentStyle": false,
 											"containerChangeable": false,
 											"containerExtending": true,
-											"left": 405.5,
-											"top": 375.5,
-											"width": 124,
+											"left": 411.5,
+											"top": 379.5,
+											"width": 214,
 											"height": 13,
 											"autoResize": false,
-											"alpha": 0.11787208783098987,
-											"distance": 76.53103945458993,
-											"text": "2 : return_promotion()",
+											"alpha": 0.03934975329339695,
+											"distance": 127.09838708654017,
+											"text": "2 : promotion_id = return_promotion()",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5
 										},
@@ -24129,14 +24129,14 @@
 											"parentStyle": false,
 											"containerChangeable": false,
 											"containerExtending": true,
-											"left": 201,
+											"left": 147,
 											"top": 275,
-											"width": 142,
+											"width": 250,
 											"height": 13,
 											"autoResize": false,
 											"alpha": -4.653633743875884,
 											"distance": 17.029386365926403,
-											"text": "3 : return_product_type()",
+											"text": "3 : product_type_id = return_product_type()",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5
 										},
@@ -24257,14 +24257,14 @@
 											"parentStyle": false,
 											"containerChangeable": false,
 											"containerExtending": true,
-											"left": 521.5,
-											"top": 283,
-											"width": 109,
+											"left": 411.5,
+											"top": 264,
+											"width": 349,
 											"height": 13,
 											"autoResize": false,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
-											"text": "4 : insert_product()",
+											"alpha": 1.2387365510692596,
+											"distance": 30.675723300355934,
+											"text": "4 : insert_product(discount_id,promotion_id,product_type_id)",
 											"horizontalAlignment": 2,
 											"verticalAlignment": 5
 										},
@@ -24385,7 +24385,8 @@
 							},
 							"connector": {
 								"$ref": "AAAAAAFJkEnKAlFHLOk="
-							}
+							},
+							"assignmentTarget": "discount_id"
 						},
 						{
 							"_type": "UMLMessage",
@@ -24407,7 +24408,8 @@
 							},
 							"connector": {
 								"$ref": "AAAAAAFJkEnWRlGL5EA="
-							}
+							},
+							"assignmentTarget": "promotion_id"
 						},
 						{
 							"_type": "UMLMessage",
@@ -24429,7 +24431,8 @@
 							},
 							"connector": {
 								"$ref": "AAAAAAFJkEnmVFHnr3E="
-							}
+							},
+							"assignmentTarget": "product_type_id"
 						},
 						{
 							"_type": "UMLMessage",
@@ -24451,7 +24454,8 @@
 							},
 							"connector": {
 								"$ref": "AAAAAAFJkEn0TlJbEu8="
-							}
+							},
+							"arguments": "discount_id,promotion_id,product_type_id"
 						}
 					],
 					"participants": [
