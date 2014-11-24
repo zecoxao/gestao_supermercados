@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F82A60D-F7AE-4FA0-80E0-E5916860EF69" name="SYS_C007285">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>ROOT</sourceObjSchema>
+<sourceObjName>SYS_C007285</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<containerWithKeyObject>121F33DD-50B9-AD6A-D34E-E7A16C8B57BE</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>4F7BADF6-0956-7F8C-E912-E5FF6CED4A1B</localFKIndex>
+<keyObject>BDCEBCAA-3670-5C0D-2EC4-99407D29EF42</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PROMOTION" directorySegmentName="seg_0" id="55E45163-DB6E-E6D1-9ABC-5BB6E3F867E0">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3BA122C4-F754-29ED-8C4C-86099539FD24</segment>
+<tableSpace>16F6FAEA-124C-0621-E3EF-F15B08B966EF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATE_BEGINNING" id="0A0A9799-6553-C5BA-118A-5E6AD90DE59F">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="DATE_END" id="3BB8A0D5-567F-717B-3019-EF49B7EDCE41">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="VAL1" id="3F79E7F9-1AB7-B4F1-DB27-5C9ADA7AC4E6">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PROMOTION_TYPE" id="5DA51362-B1BC-C554-1D9A-95631FBF9654">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMOTION_ID" id="B3EDB5CD-D94E-B361-6F37-24BB210956CA">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VAL2" id="C87501D2-8A8F-A338-8163-23B31442BC1B">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROMOTION_PK" id="E59EE253-F00E-BE63-C6B4-95DF37FFC593">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<segment>9E943082-C7C4-481B-0321-C1F48838579B</segment>
+<tableSpace>16F6FAEA-124C-0621-E3EF-F15B08B966EF</tableSpace>
+<indexSegment>9E943082-C7C4-481B-0321-C1F48838579B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

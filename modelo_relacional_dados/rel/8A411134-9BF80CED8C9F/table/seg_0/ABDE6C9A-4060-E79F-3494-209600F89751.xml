@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABDE6C9A-4060-E79F-3494-209600F89751" name="PERSON">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>ROOT</sourceObjSchema>
+<sourceObjName>PERSON</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CITIZEN_CARD" id="583D2859-E08B-47F0-7E1B-670C2C0321B4">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>CITIZEN_CARD</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="428A31A7-94C5-4CE5-5497-2509C7A6DD3E">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="5EFFFF9C-DD42-1EDD-E1D4-AEDA3F3456A5">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="B65D99E8-E287-064F-E282-E8BD42A7D09E">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAFB2BC4-26CA-5ED4-FE83-1A7D1A96BF22" name="PERSON_PK">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>ROOT</sourceObjSchema>
+<sourceObjName>SYS_C007256</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="583D2859-E08B-47F0-7E1B-670C2C0321B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

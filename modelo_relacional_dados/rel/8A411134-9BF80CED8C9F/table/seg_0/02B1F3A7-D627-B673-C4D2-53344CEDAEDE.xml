@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02B1F3A7-D627-B673-C4D2-53344CEDAEDE" name="SUPPLY">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>ROOT</sourceObjSchema>
+<sourceObjName>SUPPLY</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUPPLY_ID" id="94BE152D-4475-8490-6EBA-B178C42CA283">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>SUPPLY</sourceObjSchema>
+<sourceObjName>SUPPLY_ID</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_SUPPLY" id="8071E9F0-DA19-9614-C03D-778CB0167EF1">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>SUPPLY</sourceObjSchema>
+<sourceObjName>DATE_SUPPLY</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COST_SUPPLY" id="BBB82610-534C-332F-637D-627ACA521EBF">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>SUPPLY</sourceObjSchema>
+<sourceObjName>COST_SUPPLY</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER" id="6B1796AC-B7DB-E441-E7E2-74494FB748F3">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>SUPPLY</sourceObjSchema>
+<sourceObjName>SUPPLIER</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>D038116B-DAD5-4C3C-3D20-44575F490AE1</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="390B1DD0-5D72-009B-D57E-38ACF1A67461" referredColumn="D038116B-DAD5-4C3C-3D20-44575F490AE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6B5A19B-8A75-062B-859A-BE35C690B8DC" name="SUPPLY_PK">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>ROOT</sourceObjSchema>
+<sourceObjName>SYS_C007261</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94BE152D-4475-8490-6EBA-B178C42CA283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F841A641-C52E-77C9-5C9D-EABFFB1BEA1F" name="SYS_C007262">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B1796AC-B7DB-E441-E7E2-74494FB748F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

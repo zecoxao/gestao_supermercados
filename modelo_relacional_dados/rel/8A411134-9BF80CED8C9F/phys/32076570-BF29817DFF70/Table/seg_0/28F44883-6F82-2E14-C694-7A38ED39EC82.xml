@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUCT" directorySegmentName="seg_0" id="28F44883-6F82-2E14-C694-7A38ED39EC82">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3BA122C4-F754-29ED-8C4C-86099539FD24</segment>
+<tableSpace>16F6FAEA-124C-0621-E3EF-F15B08B966EF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRICE" id="28C989EF-1A81-5E11-CF18-630F04F62BD1">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISBN" id="795271EE-3978-125E-192F-6E603C108BE3">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="871E5A72-FD11-094A-CF5E-C4732857CA1A">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNITS_STOCK" id="9316B964-EC48-BC22-B9A7-6D8EDE0A4752">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TYPE" id="9DB1E759-3475-1A26-05E7-B498A7DA136D">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISCONTINUED" id="B1C39F1C-0973-7E65-EA1F-25A4304DC549">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT_UNIT" id="E386F6EE-6F57-92F0-AC95-5942737840A3">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCT_PK" id="F41D4FE4-F11C-0590-F37A-972C557F2815">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<segment>9E943082-C7C4-481B-0321-C1F48838579B</segment>
+<tableSpace>16F6FAEA-124C-0621-E3EF-F15B08B966EF</tableSpace>
+<indexSegment>9E943082-C7C4-481B-0321-C1F48838579B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

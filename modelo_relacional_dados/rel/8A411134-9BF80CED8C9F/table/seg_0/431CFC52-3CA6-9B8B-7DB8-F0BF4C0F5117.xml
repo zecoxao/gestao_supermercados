@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="431CFC52-3CA6-9B8B-7DB8-F0BF4C0F5117" name="PRODUCT_PROMOTION">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>ROOT</sourceObjSchema>
+<sourceObjName>PRODUCT_PROMOTION</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRICE" id="B79EA038-8B73-504B-4E9E-13239D3B7239">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>PRODUCT_PROMOTION</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT" id="49533996-3684-51C9-DEB2-33CC81334174">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>PRODUCT_PROMOTION</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>795271EE-3978-125E-192F-6E603C108BE3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4C5072E-8229-912F-1DAF-E7E2411D1799" referredColumn="795271EE-3978-125E-192F-6E603C108BE3"/>
+</associations>
+</Column>
+<Column name="PROMOTION" id="3A608898-43DD-E911-3B0A-8811D86AFE79">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>PRODUCT_PROMOTION</sourceObjSchema>
+<sourceObjName>PROMOTION</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>B3EDB5CD-D94E-B361-6F37-24BB210956CA</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D70E1DD-6BF8-12B5-6663-14D3730F5CD8" referredColumn="B3EDB5CD-D94E-B361-6F37-24BB210956CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABC246D8-9BF0-6DE0-3EF2-0DA82A7F77BD" name="PRODUCT_PROMOTION_PK">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>ROOT</sourceObjSchema>
+<sourceObjName>SYS_C007291</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49533996-3684-51C9-DEB2-33CC81334174"/>
+<colUsage columnID="3A608898-43DD-E911-3B0A-8811D86AFE79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B32322B-05E6-66ED-F2C3-36A56969614A" name="SYS_C007292">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49533996-3684-51C9-DEB2-33CC81334174"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7867FC5E-AD3A-A16B-2D21-17EFA0F64218" name="SYS_C007293">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A608898-43DD-E911-3B0A-8811D86AFE79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

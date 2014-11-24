@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFEC798C-A570-8B94-B860-8C60B0AE7FF9" name="SUPPLY_DETAIL">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>ROOT</sourceObjSchema>
+<sourceObjName>SUPPLY_DETAIL</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUPPLY" id="C7B7F9AE-562D-BC18-648E-6E63D851EAFF">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>SUPPLY_DETAIL</sourceObjSchema>
+<sourceObjName>SUPPLY</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>94BE152D-4475-8490-6EBA-B178C42CA283</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE562E71-03F3-482F-6F28-CB248C8356D9" referredColumn="94BE152D-4475-8490-6EBA-B178C42CA283"/>
+</associations>
+</Column>
+<Column name="PRODUCT" id="7FF40ED8-10CF-7C30-F00B-385E4E476EDF">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>SUPPLY_DETAIL</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>795271EE-3978-125E-192F-6E603C108BE3</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2085B2F8-8573-3203-49D2-BFFA24289FE6" referredColumn="795271EE-3978-125E-192F-6E603C108BE3"/>
+</associations>
+</Column>
+<Column name="UNIT_PRICE" id="0CF0EA8F-239C-50CC-2D76-DB7F8FB293AF">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>SUPPLY_DETAIL</sourceObjSchema>
+<sourceObjName>UNIT_PRICE</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="9C5773F6-914F-6E5B-853C-9FCAF61C878C">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>SUPPLY_DETAIL</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65AD11B4-C66D-9B18-2567-C63B3BBE63C7" name="SUPPLY_DETAIL_PK">
+<sourceConnName>admin</sourceConnName>
+<sourceObjSchema>ROOT</sourceObjSchema>
+<sourceObjName>SYS_C007279</sourceObjName>
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<schemaObject>22018215-4F00-A94E-A203-77E3497BF695</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7B7F9AE-562D-BC18-648E-6E63D851EAFF"/>
+<colUsage columnID="7FF40ED8-10CF-7C30-F00B-385E4E476EDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="126FFD0E-4496-DDF3-4ED8-99A43A39A486" name="SYS_C007280">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7B7F9AE-562D-BC18-648E-6E63D851EAFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8904CB17-A780-D6F3-17C2-69AA68D38363" name="SYS_C007281">
+<createdBy>zecoxao</createdBy>
+<createdTime>2014-11-24 11:35:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FF40ED8-10CF-7C30-F00B-385E4E476EDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
